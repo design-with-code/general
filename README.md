@@ -11,3 +11,4 @@ This repository contains information that is not specific to any technology but 
 
 1. **[Setup](./A1-Set-up.md)** - Instructions to set up the development environment including editor and a lightweight web server.
 2. **[Theme Variables](./A2-Theme-Variables.md)** - Explains the idea of theme variables and how they can be used in our prototypes.
+3. **[Debugging](./A3-Debugging.md)** - Explains how to use the developer tools in the browser to debug your code.
