@@ -65,7 +65,9 @@ With the introduction of auto layouts, Figma has made it much easier for designe
 
 The code equivalent to auto layout is the CSS flexbox, which is almost a 1:1 translation of the auto layout properties into respective CSS properties. In the following diagram, you can see how the auto layout translates into the CSS properties flex-direction and align-items.
 
-!--- IMAGE HERE
+![Alignment](https://github.com/design-with-code/general/assets/46745939/f4058783-0094-4745-bc50-87218aec010a)
+
+*Figure 1: Comparing Figma auto-layout and CSS flexbox* 
 
 As you can see, the auto layout is translated into the CSS property flex, which is the flexbox layout that can dynamically arrange elements into either a row (default) or a column, defined by the CSS property flex-direction. The beauty of both the flexbox and the auto layout is that by controlling the dimensions of the container, the elements within are laid out automatically by distributing the available space based on rules that can be controlled via CSS. This way, designs can adjust to different screen sizes automatically within certain ranges.
 
@@ -75,7 +77,9 @@ I must admit that I find this super confusing even though it is logical, especia
 
 While you are in Figma, all this is nicely hidden away, and if you base your prototype on your design specifications, looking into Figma’s code perspective helps you create the correct layouts.
 
-!--- IMAGE HERE
+![Column vs  row layout](https://github.com/design-with-code/general/assets/46745939/876b17ab-1a0e-4f6f-b69e-e17789aab832)
+
+*Figure 2: Aligning items along the main layout axis.*
 
 If you work with Figma, always aim to create a flexible layout and a meaningful component structure. This will make it easier for engineers to transfer the designs into code and also help you to prepare prototypes.
 
@@ -95,8 +99,6 @@ But as the designs stabilize and feasibility becomes more important, using desig
 If you follow these rules, you’ll be well-prepared when you start to create your own prototypes. When building prototypes, getting the component layout right is a significant part of the effort. This is something you can prepare for in advance by utilizing the capabilities of your design tool.
 
 Now, that was again a lot of theory, right? No more, you will soon get your hands dirty. In the next article of this series, we will take a first look into setting up a simple prototype using SAP Web Components.
-
-## Appendix
 
 * [Theme Variables](./ThemeVariables.md) - explains what theme variable asre and how to use them
 * [Theme Tokens for Horizon](./sap_horizon.json) - Tokens are used to formalize the theme so that it can be used in various tools.
