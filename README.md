@@ -4,7 +4,7 @@ This repository contains information that is not specific to any technology but 
 
 ## Articles
 
-1. **Change of Perspective** - First part of the series providing motivation and rationale.
+1. **[Change of Perspective](./01-Change-of-Perspective.md)** - First part of the series providing motivation and rationale.
 2. **Crossing the Bridge** - Help understand how the proper use of design tools like Figma can already help being prepared for coding.
 
 ## Other Topics
