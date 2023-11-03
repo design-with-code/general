@@ -99,7 +99,3 @@ But as the designs stabilize and feasibility becomes more important, using desig
 If you follow these rules, you’ll be well-prepared when you start to create your own prototypes. When building prototypes, getting the component layout right is a significant part of the effort. This is something you can prepare for in advance by utilizing the capabilities of your design tool.
 
 Now, that was again a lot of theory, right? No more, you will soon get your hands dirty. In the next article of this series, we will take a first look into setting up a simple prototype using SAP Web Components.
-
-* [Theme Variables](./ThemeVariables.md) - explains what theme variable asre and how to use them
-* [Theme Tokens for Horizon](./sap_horizon.json) - Tokens are used to formalize the theme so that it can be used in various tools.
-* [Theme CSS Variables](./theme-variables.css) - slightly edited file that contains the definition of the CSS variables for the theme including the color values etc.
