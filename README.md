@@ -5,9 +5,9 @@ This repository contains information that is not specific to any technology but 
 ## Articles
 
 1. **[Change of Perspective](./01-Change-of-Perspective.md)** - First part of the series providing motivation and rationale.
-2. **Crossing the Bridge** - Help understand how the proper use of design tools like Figma can already help being prepared for coding.
+2. **[Crossing the Bridge](./02-Crossing-the-Bridge.md)** - Help understand how the proper use of design tools like Figma can already help being prepared for coding.
 
 ## Other Topics
 
-1. **Setup** - Instructions to set up the development environment including editor and a lightweight web server.
-2. **Theme Variables** - Explains the idea of theme variables and how they can be used in our prototypes.
+1. **[Setup](./A1-Set-up.md)** - Instructions to set up the development environment including editor and a lightweight web server.
+2. **[Theme Variables](./A2-Theme-Variables.md)** - Explains the idea of theme variables and how they can be used in our prototypes.
