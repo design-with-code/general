@@ -160,7 +160,7 @@ Some web components allow other components to be placed inside of them by offeri
 
 The most basic slot is used for text. The ui5-button for instance takes its label as text inside of the start and end tag: ``<ui5-button>Label</ui5button>``. This is equivalent to placing a text element in the default slot. This also means that you could also place more complex structures in this slot like the icon on top of the text shown in the figure below.
 
-!!! IMAGE HERE !!!
+![Figure 6 – Using the default slot of the button to create a button with more complex content.](https://github.com/design-with-code/general/assets/46745939/e1aee4f2-d8fb-4b49-b230-1ab6e08193b3)
 
 *Figure 6 – Using the default slot of the button to create a button with more complex content.*
 
