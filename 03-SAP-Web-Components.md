@@ -18,7 +18,7 @@ Web components are restricted to the presentation and behavior of the user inter
 
 As web components are so targeted, they can be used to provide a consistent presentation layer for various implementation frameworks, i.e., build the component once and then use it in several technologies, which you can see in the following figure.
 
-!!! IMAGE HERE !!!
+![Figure 1 – Web components are restricted to presentation and component behavior. To use it in an application, data and logic must be implemented using plain JavaScript or by wrapping the web component for use in one of the JavaScript frameworks like React, Angular, Vue or SAPUI5.](https://github.com/design-with-code/general/assets/46745939/84921b59-91ac-467a-87a6-142bcb740456)
 
 *Figure 1 – Web components are restricted to presentation and component behavior. To use it in an application, data and logic must be implemented using plain JavaScript or by wrapping the web component for use in one of the JavaScript frameworks like React, Angular, Vue or SAPUI5.*
 
@@ -73,7 +73,7 @@ Now you can add your first web component into the page. We will use the ui5-butt
 
 As a result, you should be able to see a button on an empty page if you open your ``index.html`` in a browser.
 
-!!! IMAGE HERE !!!
+![Figure 2 - The empty page with a button.](https://github.com/design-with-code/general/assets/46745939/8cae95ce-ca63-42b8-8e5b-b78d9318d599)
 
 *Figure 2 - The empty page with a button.*
 
@@ -104,7 +104,7 @@ This means we need to switch to the new horizon theme.
 
 Including this script into the header of the HTML document tells the web components library to load the Horizon theme instead of the default. This is a configuration that is applied to the entire application. You can also experiment by setting other valid themes like ``sap_horizon_dark`` or ``sap_horizon_hcb``. You will find a [list of all themes](https://sap.github.io/ui5-webcomponents/playground/?path=/docs/docs-advanced-configuration--docs) as well as other configuration parameters in the documentation. If you reload your browser, the button should now show in the right design.
 
-!!! IMAGE HERE !!!
+![Figure 3 - The button with the Horizon theme.](https://github.com/design-with-code/general/assets/46745939/112b4700-af79-4193-acd1-a46239f3a38a)
 
 *Figure 3 - The button with the Horizon theme.*
 
@@ -120,9 +120,9 @@ The appearance and the behavior of web components can be controlled by the prope
 
 The documentation for the button for instance lists the design property, which allows the following values: ``Default``, ``Emphasized``, ``Positive``, ``Negative``, ``Transparent``, ``Attention``. If the property is not actively set, ``Default`` will be applied automatically.
 
-!!! IMAGE HERE !!!
+![Figure 4 - Documentation of the design property with the available options, the default value and the possibility to set a value in the interactive example on top of the table.](https://github.com/design-with-code/general/assets/46745939/e5f3b0a9-54d1-4e6f-af98-b75e8e460573)
 
-*Figure 4 - Documentation of the design property with the available options, the default value and the possibility to set a value in the interactive example on top of the table.*
+*Figure 4 - [Documentation of the design property with the available options](https://sap.github.io/ui5-webcomponents/playground/?path=/docs/main-button--docs), the default value and the possibility to set a value in the interactive example on top of the table.*
 
 The documentation of the web components is interactive, so that you can explore the properties right in the documentation which is great to understand the purpose if you are not certain.
 
@@ -150,7 +150,7 @@ Let's now try out how the different values of the button's design property work.
 
 This should now display the button in all different designs as shown in the next figure.
 
-!!! IMAGE HERE !!!
+![Figure 5 - The different button designs shown in the browser.](https://github.com/design-with-code/general/assets/46745939/ce9f6bd1-1ecb-4fbd-a795-c6c4f2b514af)
 
 *Figure 5 - The different button designs shown in the browser.*
 
