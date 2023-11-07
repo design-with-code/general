@@ -198,7 +198,7 @@ In the listing above we made the following changes:
 
 The result should now look like the figure below with a title bar, a footer bar with two buttons and a label in the content area. Layout and style are handled by the component for you.
 
-!!! IMAGE HERE !!!
+![Figure 7 - The application with the page component, a title, and a footer.](https://github.com/design-with-code/general/assets/46745939/bed08f8f-ca23-4b12-843f-546adf22460f)
 
 *Figure 7 - The application with the page component, a title, and a footer.*
 
@@ -291,13 +291,13 @@ We placed the style definition in a style tag in the header element of the page 
 
 The result should now look like the following figure.
 
-!!! IMAGE HERE !!!
+![Figure 8](https://github.com/design-with-code/general/assets/46745939/8d403791-2c5d-4837-936a-c21c32bcdb09)
 
 *Figure 8 - The application with panel and form as described by the listings above.*
 
 If you are struggling with the layout using div elements and flex layouts, I want to quickly show you how this resembles the auto layout feature in Figma:
 
-!!! IMAGE HERE !!!
+![Flex Box vs Auto Layout](https://github.com/design-with-code/general/assets/46745939/a3a5694e-aa2b-40b5-95d8-dc1aeba7852e)
 
 *Figure 9 - Auto layout of the form frame in Figma; in the design view and in the code view.*
 
