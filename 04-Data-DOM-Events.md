@@ -16,7 +16,7 @@ The following topics are necessary to create interactive prototypes:
 
 In this article, we will shed some light on each of these aspects.
 
-> [!HINT]
+> [!NOTE]
 > All code examples, the full article text, and additional detailed explanations on how to set up the text editor and other topics can be found on the GitHub page for this series: [Design with Code](https://github.com/design-with-code).
 
 ## Application
