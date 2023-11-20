@@ -108,6 +108,8 @@ Including this script into the header of the HTML document tells the web compone
 
 *Figure 3 - The button with the Horizon theme.*
 
+>> EXAMPLE 1 - Button
+
 We have now created a very simple setup that allows you to display web components in a plain HTML page. This is a good start, but we now need to see what is needed to create an application prototype.
 
 ## Using Web Components
@@ -154,6 +156,8 @@ This should now display the button in all different designs as shown in the next
 
 *Figure 5 - The different button designs shown in the browser.*
 
+>> EXAMPLE 2 - Button Designs
+
 ### Slots
 
 Some web components allow other components to be placed inside of them by offering so-called slots. The available slots are listed in the documentation. Slots can also have names, which is important if a component offers multiple slots. One of the slots usually is the default slot, and any component placed inside without being assigned to a specific slot will be placed there.
@@ -163,6 +167,8 @@ The most basic slot is used for text. The ui5-button for instance takes its labe
 ![Figure 6 – Using the default slot of the button to create a button with more complex content.](https://github.com/design-with-code/general/assets/46745939/e1aee4f2-d8fb-4b49-b230-1ab6e08193b3)
 
 *Figure 6 – Using the default slot of the button to create a button with more complex content.*
+
+>> EXAMPLE 3 - Button with complex content
 
 We will now add a page component to our HTML page. You will find the documentation of the page at the bottom of the navigation in the Fiori section, which contains more complex components that are more specific to the design system.
 
@@ -294,6 +300,8 @@ The result should now look like the following figure.
 ![Figure 8](https://github.com/design-with-code/general/assets/46745939/8d403791-2c5d-4837-936a-c21c32bcdb09)
 
 *Figure 8 - The application with panel and form as described by the listings above.*
+
+>> EXAMPLE 4 - First page
 
 If you are struggling with the layout using div elements and flex layouts, I want to quickly show you how this resembles the auto layout feature in Figma:
 
