@@ -1,4 +1,4 @@
-# Designing with Code (Part 4) – Data, Document Object Model, and Events
+# Designing with Code - Part 4: Data, Document Object Model, and Events
 
 Creating prototypes in code allows designers to gain a deeper understanding of the way user interfaces are constructed. This can help us become more sensitive towards concerns from engineers, but it can also strengthen the designer's position in discussions with development.
 
@@ -22,6 +22,8 @@ In this article, we will shed some light on each of these aspects.
 ## Application
 
 Let's first look at the application we want to build. We want to create a simple application that displays a list of addresses. Each address will have a flag that indicates whether we are allowed to send ads to that address. When the user selects an address from the list, they will see the address details in a dialog. In this dialog, the flag whether ads are allowed or not will be displayed as a checkbox. The user can change this flag by clicking the checkbox and the change is saved.
+
+![01-Screen-Flow](https://github.com/design-with-code/general/assets/46745939/2c5fcda4-85f2-4c91-b087-7c4f6b1f9017)
 
 *Figure 1 - Screen-flow of our simple address application. The application shows a list of addresses. When selecting an entry, the details are shown in a dialog. In the dialog, the user can change the ads flag which will then be saved back into the data model.*
 
@@ -98,6 +100,8 @@ class AddressList{
 *Listing 3 - Signature of the AddressList class that is used to encapsulate data access.*
 
 As you can see above, the ``AddressList`` class implements all basic access functions to the data. Apart from that, we don't have to take any care that the data is correct because it is all taken care of by the data model itself. The application can only call these functions and rely on them to work.
+
+![02-Data-Model-Test](https://github.com/design-with-code/general/assets/46745939/2e0d5ef7-e98f-44fb-b799-559841f61469)
 
 *Figure 2 - Data model test. To make sure the data model and all accessor methods work properly, it is helpful to include a little test routine. This is the output in Chrome developer tools console.*
 
@@ -290,6 +294,8 @@ function createTableRow(address){
 
 Inside of this function we create the ``ui5-table-cells`` that contain the actual data. The cells are added as children to the row so that in the end we have created a table row for each address and a table cell for each field within the address.
 
+![03-Table](https://github.com/design-with-code/general/assets/46745939/8edba7e8-0eb7-4ac2-a8a2-66b0d808cd9b)
+
 *Figure 3 - The application with a row appended to the address table for each address.*
 
 Now, as we begin to generate the UI from the data instead of manually adding table rows, it is not important how many rows we want to display anymore. Also, we can adjust and enhance the way we render our information in one place, and this change will become effective everywhere.
@@ -311,6 +317,8 @@ adsCell.appendChild(cb);           // Add the checkbox into the cell
 row.appendChild(adsCell);
 ...
 ```
+
+![04-Table-with-Checkbox](https://github.com/design-with-code/general/assets/46745939/20410adf-c7f8-4044-b52b-5bbfc0aa4166)
 
 *Figure 4 - The flag indicating whether ads are allowed is now displayed as a read-only checkbox.*
 
@@ -378,6 +386,8 @@ function toggleFormFactor(e){
 
 As we can see in the figure below, the dimensions of some elements are adjusted and optimized for either touch (cozy) or desktop (compact) devices.
 
+![05-Cozy-Compact](https://github.com/design-with-code/general/assets/46745939/88c2397a-a551-4dd6-b878-d207510f823b)
+
 *Figure 5 - Application switched from cozy to compact form factor.*
 
 ### Table Event
@@ -416,6 +426,8 @@ function showDetails(e){
 Before that, we have already added the dialog to the ``index.html``, so that here we only need to show it.
 
 To complete the functionality of the application, we make sure that when the user closes the dialog, we compare whether they have changed the state of some of the checkboxes and update the data model if this is the case. If the data model has been updated, we also update the table and show a message toast.
+
+![06-Interaction](https://github.com/design-with-code/general/assets/46745939/b3efc49b-af40-4a1c-85eb-114b26b680e0)
 
 *Figure 6 - Final application flow where the user can select an address, sees the details, changes the agreement and where changes are applied and confirmed by a message toast.*
 
