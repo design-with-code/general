@@ -8,6 +8,7 @@ This repository contains information that is not specific to any technology but 
 2. **[Crossing the Bridge](./02-Crossing-the-Bridge.md)** - Help understand how the proper use of design tools like Figma can already help being prepared for coding.
 3. **[SAP Web Components](./03-SAP-Web-Components.md)** - Get started with your first application examples using the SAP Web Components library and plain HTML, JavaScript and CSS.
 4. **[Data, DOM, and Events](./04-Data-DOM-Events.md)** - Most important concepts on data handling, programmatic document model manipulation and eventing.
+5. **[Team Player](./05-Team-Player.md)** - Wrapping up the first section about web components.
 
 ## Other Topics
 
