@@ -20,13 +20,13 @@ Given these changes, I’ve updated the examples in the GitHub repository to ali
 Building production-ready applications often involves complex tools like build systems, testing frameworks, and dependency management. For designers, this can be overwhelming and time-consuming. Thankfully, there are simpler alternatives for prototyping:
 ## Playground
 The UI5 playground allows you to experiment with components by editing code and seeing instant results. This is sufficient for most exploratory tasks. However, the playground doesn’t allow for permanent saving or advanced interactions.
-01 Playground.png
+![UI5 Playground](01 Playground.png)
 
 ## Local Prototyping Setup
 For more complex prototypes or continuous work, a local setup offers greater flexibility. Below, I outline a minimal installation and configuration process that avoids heavy tools while providing key advantages:
-No need to manage tools or packages locally.
-No build steps—simply refresh your browser.
-Easy sharing of prototypes.
+* No need to manage tools or packages locally.
+* No build steps—simply refresh your browser.
+* Easy sharing of prototypes.
 
 # Setting Up the Prototype: Key Changes in the New Approach
 
