@@ -9,6 +9,7 @@ This repository contains information that is not specific to any technology but 
 3. **[SAP Web Components](./03-SAP-Web-Components.md)** - Get started with your first application examples using the SAP Web Components library and plain HTML, JavaScript and CSS.
 4. **[Data, DOM, and Events](./04-Data-DOM-Events.md)** - Most important concepts on data handling, programmatic document model manipulation and eventing.
 5. **[Team Player](./05-Team-Player.md)** - Wrapping up the first section about web components.
+6. **[Update to Version 2](./06-Update-ti-Version-2.md)** - Helping with the transition to a new setup for version 2 of the web components.
 
 ## Other Topics
 
